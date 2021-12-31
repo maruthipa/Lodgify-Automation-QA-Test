@@ -1,0 +1,22 @@
+{
+    "contactHeaderLocator": "div[class='content'] h3[class*='header']",
+    "testBioLocator": "div[class=html-container]",
+    "fullNameLocator": "div[class='avatar']+h4[class='ui header']",
+    "emailLocator": "div[role='listitem'] span+span",
+    "phoneLocator": "div[role='listitem'] span+span",
+    "submitButtonLocator": "form button[data-testid='button']",
+    "nameLocator": "input[name='name']",
+    "emailIDLocator": "input[name='email']",
+    "phoneNumLocator": "input[name='phone']",
+    "nameErrorStateLocator": "input[name='name']+div",
+    "emailErrorStateLocator": "input[name='email']+div",
+    "commentErrorStateLocator": "textarea[placeholder='Comment']+div",
+    "arrivalDateLocator": "input[aria-label='Arrival']",
+    "departureDateLocator": "input[aria-label='Departure']",
+    "commentTextareaLocator": "textarea[placeholder='Comment']",
+    "privacyMessageLocator": "p[class='light tiny']",
+    "successMessageLocator": "div[class*='success']",
+    "dateLocator": "input[aria-label='Arrival']",
+    "arrivalLocator": "input[aria-label='Arrival']",
+    "departureLocator": "input[aria-label='Departure']"
+}

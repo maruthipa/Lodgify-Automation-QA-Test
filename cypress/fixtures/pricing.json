@@ -1,0 +1,13 @@
+{
+    "RentalSelectedValue": "50",
+    "pricingTitleValue": "Lodgify Pricing",
+    "usaStarterValue":"64",
+    "usaProfessionalValue":"375",
+    "usaUltimateValue":"525",
+    "usaDollar": "$",
+    "gbpDollar": "£",
+    "gbpStarterValue":"10",
+    "gbpProfessionalValue":"24",
+    "gbpUltimateValue":"39",
+    "setCurrencyValue": "gbp"
+}

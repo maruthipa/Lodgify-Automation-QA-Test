@@ -6,10 +6,17 @@ The following instructions use Bash, so make sure to install Git Bash before run
 2. You will need to start a local server to run tests, execute "$ npm run dev-server" in a different terminal, leave this terminal open.
 3. To run your test, you should test files inside "cypress/integration/testName.test.js" (where "testName" is the name of the test you're adding).
 4. Run the tests with $ "npm run cy:run"
-5. You should be able to run and check tests results with these steps, now you can proceed with the requirements below, which you will also find in the Test file.
-6. You can create folders for selectors anywhere, the whole structure is up to you, try not to hardcode and create a clean test structure.
-7. Make sure to do smart waits in case slowness on services.
-8. Tests should be able to run on any environment.
+5. Get mochawesome report for tests with $ "npm run cy:getmochawesomereport"
+6. Get junit report for tests with $ "npm run cy:getjunitreport"
+7. Get tests run in the different environment with $ "npm run cy:runsmokeinprodenv"
+8. You should be able to run and check tests results with these steps, now you can proceed with the requirements below, which you will also find in the Test file.
+9. Added a folder named framework and it has two sub folders named locatorsJSON and Utils. 
+10. Utils has CoreFunctions.js which contains functions for basics operations like click, type .... (Note: we can extend the functions as per our needs)
+11. locatorsJSON folder contains different json files for each page. 
+12. All the test data for the scripts will be driven from the fixtures folder(Note: Each page has its own json file in our case it will be two files)
+13. Utlilized the commands.js under the support folder to add couple of commands. (Note: we can add all our re usable or commands in the commands.js file but then i have implement the coreFunctions in the Utils under framework so it gives the feel of abstract meaning not seeing the cy. in each line)
+14. Tests should be able to run on any environment. --- we can over ride the default cypress.json with the environment json file by passing as arguments while running For this we can simply change the baseUrl in cypress.json
+15. Add a folder named qa defects which has two documents, one for the defect report and another one is for the execution screenshots as i am not pushing the reports to the branch.
 
 ## How we'd like to receive the solution?
 
@@ -32,6 +39,20 @@ Note: by default, server.js is using your port 8080, feel free to change it in c
 ## Execute Tests
 ```
 $ npm run cy:run
+```
+## Generate the mochawesome report along with run
+```
+$ npm run cy:getmochawesomereport
+```
+## Generate the Junit report along with run
+```
+$ npm run cy:getjunitreport
+```
+## Running in different env
+```
+$ npm run cy:runsmokeinprodenv
+
+Note: If not dont want to do this way then we can simply change the baseUrl in the cypress.json.
 ```
 
 Challengue Requirements:

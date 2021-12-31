@@ -1,0 +1,9 @@
+{
+    "selectedRentalLocator": "input[id='scroll-prop-plan']",
+    "RentalLocator": "div[style='width: 179.5px; position: absolute; left: 50%; margin-left: -89.75px;']",
+    "StarterLocator": "div[class *='starter'] span[class='total-sum']",
+    "ProfessionalLocator": "div[class *='pro'] span[class='total-sum']",
+    "UltimateLocator": "div[class *='pro'] span[class='total-sum']",
+    "currenySymbolLocator": "div[class='plan-price plan-price-2 text-dark'] span[class='currency currency-symbol currency-symbol-pre']",
+    "currencyDropDown": "select[class*='price-currency-select']"
+}
