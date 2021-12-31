@@ -1,0 +1,19 @@
+{
+    "contactTitleValue": "Contact",
+    "contactHeaderValue":"Contact",
+    "bioValue":"Test bio 278878",
+    "fullNameValue":"FirstName 278878 LastName 278878",
+    "emailValue": "nicolas@lodgify.com",
+    "phoneValue": "+34555278878278878",
+    "nameErrorMessage": "Name is mandatory",
+    "emailErrorMessage": "Email is mandatory",
+    "commentsErrorMessage": "Comment is mandatory",
+    "privacyMessageValue": "This site is protected by reCAPTCHA",
+    "commentsValue": "Lorem Ipsum",
+    "nameValue": "TestName",
+    "emailIDValue": "@gmail.com",
+    "phoneNumValue": "9871234560",
+    "successMessageValue": "Your request has been sent successfully.",
+    "arrivalDate": "14/04/2022",
+    "departureDate": "16/06/2022"
+}

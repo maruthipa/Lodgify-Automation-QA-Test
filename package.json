@@ -16,6 +16,12 @@
     "dev-server": "node server/server.js",
     "install-all": "npm install && cd server && npm install",
     "cy:open": "npx cypress open",
-    "cy:run": "npx cypress run --browser chrome"
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:getmochawesomereport": "cypress run --spec '**/*.test.js' --reporter mochawesome",
+    "cy:getjunitreport": "cypress run --spec '**/*.test.js'  --config-file prod.json --reporter junit",
+    "cy:runsmokeinprodenv": "cypress run --spec '**/*.test.js' --config-file 'prod.json' --reporter mochawesome"
+  },
+  "dependencies": {
+    "mochawesome": "^7.0.1"
   }
 }
